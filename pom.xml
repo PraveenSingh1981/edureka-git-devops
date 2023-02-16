@@ -4,13 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.edurekademo.tutorial</groupId>
     <artifactId>addressbook</artifactId>
-   <build>
-   	<plugin>
-   	<groupId>org.apache.maven.plugins</groupId>
-   	<artifactId>maven-war-plugin</artifactId>
-   	<version>3.3.2</version>
-   	</plugin>
-   </build>
+    <plugin>
+   <groupId>org.apache.maven.plugins</groupId>
+   <artifactId>maven-war-plugin</artifactId>
+   <version>3.3.2</version>
+   </plugin>
+   
    <name>Vaadin Addressbook example</name>
 
     <properties>
